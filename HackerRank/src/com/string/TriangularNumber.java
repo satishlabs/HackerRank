@@ -13,7 +13,7 @@ public class TriangularNumber {
     public static void main(String[] args)  
     { 
             int n = 5; 
-            //triangular_series(n); 
+            triangular_series(n); 
             triangular_series1(n); 
     }
 
@@ -21,7 +21,6 @@ public class TriangularNumber {
 		for(int i=1;i<=n;i++) {
 			System.out.print(" "+i*(i+1)/2);
 		}
-		
 	}
 
 	private static void triangular_series(int n) {
